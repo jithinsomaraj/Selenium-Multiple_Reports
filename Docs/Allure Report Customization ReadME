@@ -1,0 +1,50 @@
+//-----------------------------------------------Allure Report Customization----------------------------------------------------------------------//
+
+Add Category in Allure Report
+------------------------------
+To add categories in allure report you need to create a 'categories.json' file with necessary commands
+and paste the file to the Allure results folder.
+
+(Sample category file is available in the "test/resources" folder.)
+
+
+
+Add ENVIRONMENT details  in Allure Report
+------------------------------
+To add ENVIRONMENT details in allure report you need to create a 'ENVIRONMENT.properties' file with necessary commands
+and paste the file to the Allure results folder.
+
+(Sample ENVIRONMENT file is available in the "test/resources" folder.)
+
+
+Add Executor details  in Allure Report
+------------------------------
+To add Executor details in allure report you need to create a 'Executor.json' file with necessary commands
+and paste the file to the Allure results folder.
+
+(Sample Executor file is available in the "test/resources" folder.)
+
+
+To display Trend in the Report section
+--------------------------------------
+To display trend in the html report you need to copy the previous test result and paste to the history folder 
+which should be created under the Allure Results folder 
+(Sample Trend file is available in the "test/resources" folder.)
+
+
+To display/alter Report summary in the Report section
+--------------------------------------
+To add summary details in allure report you need to create a 'summary.json' file with necessary commands
+and paste the file to the Allure results folder.
+(Sample summary file is available in the "test/resources" folder.)
+
+
+
+
+
+
+
+
+
+
+

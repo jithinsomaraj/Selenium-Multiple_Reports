@@ -1,0 +1,21 @@
+//--------------------------------------------------Allure Report Documentation-----------------------------------------------------------//
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Steps to Generate Allure Report
+-------------------------------
+1.Download allure command line tools(.zip)
+link : "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.8.0/"
+
+2.Download apache maven (.zip) 
+link: "https://maven.apache.org/download.cgi"
+
+3.Copy the Bin folder path of both command line tools and apache maven
+and paste to to the path in system environment variables path.
+
+4.After Step 3 check the maven version by 'mvn--version' command
+
+5.After Setting up the Alure Frame work Run the Testng Test
+
+6.After Execution of the TestNg Test open the Command Prompt and type "Allure Serve"
+
+7.Step 6 will generate the report and open in the browser 

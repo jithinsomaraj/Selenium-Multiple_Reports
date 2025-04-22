@@ -1,0 +1,32 @@
+//-------------------------------------------------------Allure Reporting-----------------------------------------------------------------//
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Steps To Generate Ordinary Report
+-----------------------------------
+
+1.Open Command Prompt after Test Execution is completed.
+
+2.Type "Allure Serve" and tap enter
+
+Note: The command prompt should be opened in the project folder
+
+This will open the report in browser.This report will only be available till the command prompt is live.
+
+We cannot have a physical report by this feature.
+
+
+
+Steps to Generate a Sharable Report
+-------------------------------------
+.....................................
+
+1.Go to "https://www.netlify.com/"
+2.Create an account
+3.After Test Execution Open command prompt and Type "Allure generate" and tap enter
+4.This will generate the a physical html report located in "Allure Reports" Folder in the project folder
+5.Go to Netlify And drag and drop the "ALlure Reports" folder to "deploy maually.." section
+6.This will generate a sharable url which is permanent and able to share to anyone.
+7.There is also option to customize the report url.
+
+
+
